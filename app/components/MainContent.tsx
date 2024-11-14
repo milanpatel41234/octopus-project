@@ -11,7 +11,7 @@ function MainContent() {
         }, 1000);
     }, []);
     return (
-        <main className="flex flex-col gap-8 bg-[#08b4bf] w-full pb-4">
+        <main className="flex flex-col gap-8 bg-[#08b4bf] w-full p-4">
             <div className="flex justify-between p-8">
                 <img src="assets/logo.png" alt="logo" width="120" height="30" />
                 <div className="flex gap-8 items-center hidden md:flex">
