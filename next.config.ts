@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['*'],
+    domains: ['https://demo-project-v1-47rx92gk5-milanpatel41234s-projects.vercel.app'],
   },
 };
 
