@@ -11,7 +11,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ data }) => {
-  const { title, description, imageUrl } = data;
+  const { title } = data;
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
