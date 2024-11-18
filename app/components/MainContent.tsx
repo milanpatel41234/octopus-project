@@ -36,14 +36,15 @@ function MainContent() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-12 gap-4 w-full">
                 <div className="p-2 flex flex-col gap-4 col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6">
-                    <p className="text-white w-[581px] h-[124px] text-[48px] font-[900] leading-[62.4px] text-left">
+                    <p className="text-white w-full sm:w-[581px] text-[48px] font-[900] leading-[62.4px] text-left break-words">
                         최고의 실력을 가진 외국인 인재를 찾고 계신가요?
                     </p>
 
-                    <p className="text-white w-[361px] h-[68px] text-[24px] font-[900] leading-[34px] text-left">
+                    <p className="text-white w-full sm:w-[361px] text-[24px] font-[900] leading-[34px] text-left break-words">
                         법률 및 인사관리 부담없이 1주일 이내에 원격으로
                         채용해보세요.
                     </p>
+
                     <p className="text-white w-[361px] h-[38px] text-[18px] font-[900] leading-[34px] text-left hidden md:block">
                         개발자가 필요하신가요?
                     </p>
@@ -166,7 +167,12 @@ function MainContent() {
                 </button>
             </div>
             <div className="flex md:flex lg:hidden xl:hidden">
-                <img src="assets/Frame 5069.png" alt="logo" width="300" height="50" />
+                <img
+                    src="assets/Frame 5069.png"
+                    alt="logo"
+                    width="300"
+                    height="50"
+                />
             </div>
         </main>
     );
